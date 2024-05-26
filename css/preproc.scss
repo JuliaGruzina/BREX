@@ -311,49 +311,55 @@ a {
 .form {
   min-height: 1033px;
   padding-top: 95px;
-  padding-left: 48px;
   padding-bottom: 80px;
-  padding-right: 48px;
   background: #f9f9f9;
-  h3 {
-    font-family: $font-family_1;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 144%;
-    letter-spacing: 0.04em;
-    color: $color_1;
-    text-align: left;
-    margin-bottom: 20px;
-  }
-  p {
-    font-family: $font-family_1;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 160%;
-    letter-spacing: 0.02em;
-    color: $color_1;
-    margin-bottom: 30px;
-  }
-  a {
-    font-family: $font-family_1;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 157%;
-    color: $color_1;
-    border: 1px solid #212121;
-    border-radius: 10px;
-    height: 48px;
-    padding: 14px 21px;
-    text-decoration: none;
-    &:hover {
-      background: #f46a35;
-      color: $color_2;
-      transition: 0.2s;
-      border: none;
+
+  article {
+    margin-left: 50px;
+    h3 {
+      font-family: $font-family_1;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 144%;
+      letter-spacing: 0.04em;
+      color: $color_1;
+      text-align: left;
+      margin-bottom: 20px;
     }
-  }
-  img {
-    margin-top: 50px;
+
+    p {
+      font-family: $font-family_1;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 160%;
+      letter-spacing: 0.02em;
+      color: $color_1;
+      margin-bottom: 30px;
+    }
+
+    a {
+      font-family: $font-family_1;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 157%;
+      color: $color_1;
+      border: 1px solid #212121;
+      border-radius: 10px;
+      height: 48px;
+      padding: 14px 21px;
+      text-decoration: none;
+
+      &:hover {
+        background: #f46a35;
+        color: $color_2;
+        transition: 0.2s;
+        border: none;
+      }
+    }
+
+    img {
+      margin-top: 50px;
+    }
   }
 }
 .door-carousel {

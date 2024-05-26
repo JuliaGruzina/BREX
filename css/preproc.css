@@ -304,10 +304,11 @@ a:hover {
 .form {
   min-height: 1033px;
   padding-top: 95px;
-  padding-left: 48px;
   padding-bottom: 80px;
-  padding-right: 48px;
   background: #f9f9f9;
+}
+.form article {
+  margin-left: 50px;
 }
 .form h3 {
   font-family: "robotoregular";
